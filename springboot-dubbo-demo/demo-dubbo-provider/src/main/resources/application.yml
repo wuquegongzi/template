@@ -1,0 +1,13 @@
+server:
+  port: 8083
+
+spring:
+  dubbo:
+    application:
+      name: demo-dubbo-provider
+    server: true
+    registry:
+      address: zookeeper://custmer-development-d-030038.te.td:2181
+    protocol:
+      name: dubbo
+      port: 20880
