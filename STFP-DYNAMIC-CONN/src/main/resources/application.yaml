@@ -1,0 +1,10 @@
+sftp:
+  port: 22 # ssh端口
+  host:
+  username: leon # 用户名 root
+  password: hb1031 # 密码Abc@123456
+  # 连接池参数
+  pool:
+    max-total: 10
+    max-idle: 10
+    min-idle: 5
