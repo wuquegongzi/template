@@ -4,18 +4,17 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.leon.demo</groupId>
-        <artifactId>springboot-dubbo-demo</artifactId>
+        <artifactId>demo-springboot-dubbo</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>demo-dubbo-consumer</artifactId>
+    <artifactId>demo-dubbo-provider</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>demo-dubbo-consumer</name>
+    <name>demo-dubbo-provider</name>
     <description>
-        Consumer
+        provider
     </description>
 
     <dependencies>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -31,19 +30,6 @@
             <groupId>com.101tec</groupId>
             <artifactId>zkclient</artifactId>
         </dependency>
-
-        <!-- 接口依赖 -->
-        <dependency>
-            <groupId>com.leon.demo</groupId>
-            <artifactId>demo-dubbo-provider</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
-        </dependency>
-
     </dependencies>
 
 </project>

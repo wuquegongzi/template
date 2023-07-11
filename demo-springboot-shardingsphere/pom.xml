@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.leon.test</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>demo-springboot-shardingsphere</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>springboot-shardingsphere</name>
     <description>ShardingSphere</description>
